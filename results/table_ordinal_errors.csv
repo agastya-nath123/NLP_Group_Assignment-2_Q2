@@ -1,0 +1,4 @@
+Model,Exact (%),Off by 1 star (%),Off by >=2 stars (%),Errors that are adjacent (%),4<->5 confusion rate (%),1<->5 confusions (count / 5000),MAE (stars)
+BiGRU + attention,63.72 ± 0.31,30.95 ± 0.61,5.33 ± 0.30,85.30 ± 0.94,19.38 ± 0.18,10.0 ± 0.0,0.426 ± 0.000
+"RoBERTa (mean pooling, len 256)",66.82 ± 0.23,29.62 ± 0.31,3.56 ± 0.08,89.27 ± 0.33,18.88 ± 0.25,6.5 ± 0.7,0.373 ± 0.001
+"RoBERTa (first pooling, len 256)",66.70 ± 0.06,29.70 ± 0.03,3.60 ± 0.08,89.19 ± 0.24,18.75 ± 0.07,5.5 ± 0.7,0.375 ± 0.002

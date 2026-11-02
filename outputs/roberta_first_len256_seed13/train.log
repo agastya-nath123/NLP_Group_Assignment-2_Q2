@@ -1,0 +1,11 @@
+[10:56:27] device=cuda amp=torch.float16 run=roberta_first_len256_seed13
+[10:56:31] train=200,000 | 6,250 optimizer steps/epoch, total 12,500, warm-up 750 | effective batch 32
+[10:59:53] epoch 0.25 | train loss 0.9957 F1 0.5525 | val loss 0.8268 F1 0.6448 acc 0.6486 MAE 0.4064 | *best*
+[11:03:15] epoch 0.50 | train loss 0.8085 F1 0.6443 | val loss 0.8034 F1 0.6545 acc 0.6590 MAE 0.3942 | *best*
+[11:07:10] epoch 0.75 | train loss 0.7895 F1 0.6550 | val loss 0.8059 F1 0.6593 acc 0.6602 MAE 0.3828 | *best*
+[11:10:31] epoch 1.00 | train loss 0.7803 F1 0.6565 | val loss 0.8082 F1 0.6397 acc 0.6508 MAE 0.4136 | no gain 1/4
+[11:13:50] epoch 1.25 | train loss 0.7318 F1 0.6807 | val loss 0.7904 F1 0.6532 acc 0.6588 MAE 0.3886 | no gain 2/4
+[11:17:15] epoch 1.50 | train loss 0.7291 F1 0.6800 | val loss 0.7819 F1 0.6649 acc 0.6658 MAE 0.3768 | *best*
+[11:20:37] epoch 1.75 | train loss 0.7190 F1 0.6869 | val loss 0.7821 F1 0.6641 acc 0.6654 MAE 0.3778 | no gain 1/4
+[11:23:55] epoch 2.00 | train loss 0.7131 F1 0.6893 | val loss 0.7788 F1 0.6626 acc 0.6654 MAE 0.3774 | no gain 2/4
+[11:24:04] TEST  acc 0.6674 | macro-F1 0.6664 | MAE 0.3734  -> outputs/roberta_first_len256_seed13

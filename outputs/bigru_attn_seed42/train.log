@@ -1,0 +1,10 @@
+[09:29:50] device=cuda amp=torch.float16 run=bigru_attn_seed42
+[09:29:58] train=200,000 val=5,000 test=5,000 | vocab=26,126
+[09:29:58] epoch 1: embeddings FROZEN
+[09:30:25] epoch 1.00 | train loss 0.9993 F1 0.5596 | val loss 0.8957 F1 0.6080 acc 0.6082 MAE 0.4572 | *best*
+[09:30:25] epoch 2: embeddings TRAINABLE
+[09:30:56] epoch 2.00 | train loss 0.8541 F1 0.6247 | val loss 0.8383 F1 0.6326 acc 0.6326 MAE 0.4312 | *best*
+[09:31:27] epoch 3.00 | train loss 0.7815 F1 0.6613 | val loss 0.8542 F1 0.6312 acc 0.6282 MAE 0.4304 | no gain 1/2
+[09:31:58] epoch 4.00 | train loss 0.7139 F1 0.6950 | val loss 0.8793 F1 0.6214 acc 0.6258 MAE 0.4460 | no gain 2/2
+[09:31:58] early stopping: no val macro-F1 gain for 2 evaluations
+[09:32:00] TEST  acc 0.6394 | macro-F1 0.6391 | MAE 0.4258  -> outputs/bigru_attn_seed42

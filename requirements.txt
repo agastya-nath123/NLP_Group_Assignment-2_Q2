@@ -1,0 +1,10 @@
+# Colab and Kaggle already ship most of these; `pip install -r requirements.txt` fills the gaps.
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+spacy>=3.7
+tqdm>=4.65

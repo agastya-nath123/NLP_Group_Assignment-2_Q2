@@ -1,0 +1,5 @@
+idx,id,label,b_pred,b_conf,r_pred,r_conf,n_words,n_unk,tags,text
+2432,en_0540577,2,2,0.3106,0,0.38313,17,0,['negation'],Must not have bought the right style. Doesn't fit my spout must be to modern for it.
+605,en_0294586,0,0,0.34602,2,0.42402,16,0,"['contrast', 'mixed sentiment']",Broken bottle. Love the product but one was broken in box and left a awful mess.
+796,en_0103134,0,0,0.30293,2,0.295,52,0,"['negation', 'mixed sentiment']",Product works. This review is not for the product its for the seller. There was a mistake on there part and I didn't receive the right product . Would have been too much of a hassle for me to return. Gave the tablet form vitamins to a friend. This product does work.
+3569,en_0124671,3,3,0.28844,4,0.87385,10,0,['sarcasm cue'],"buy it!! needs auto cut-off for alarm, loud alarm tone"
